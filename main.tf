@@ -11,10 +11,10 @@ terraform {
   }
 
   backend "remote" {
-    organization = "rajiv-terraformcloud"
+    organization = "shahid-test"
 
     workspaces {
-      name = "gh-action-demo"
+      name = "shahid-actions-demo"
     }
   }
 }
